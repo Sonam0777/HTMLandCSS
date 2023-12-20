@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Rest ;
+    src: url(./Gagisra\ Rigade.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: '';
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+/* h1{
+    padding: 10px;
+    margin: 2px;
+    border: 2px solid black;
+    width: 50%;
+    outline: 2px dashed blue;
+    outline-offset: -8px;
+} */
+
+body{
+    padding: 10%;
+    font-size: 2rem;
+}
+
+/* input, button{
+    font: inherit;
+} */
+
+
+/* p{
+    text-decoration: none;
+    text-transform: lowercase;
+    text-align:justify;
+    text-indent: 2em;
+} */
+
+p{
+    line-height: 1.5;
+    letter-spacing: 0.2em;
+    word-spacing: 0.1em;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Rest;
+
+}

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: '';
+}
+
+html, body{
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 100%
+}
+
+#heading h3{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 6%;
+}
+
+#heading h4{
+    text-align: center;
+    padding-top: 0.5%;
+}
+
+#image img{
+    /*height: 400px;*/
+    display: flex;
+    justify-content: right;
+    width: 25%;
+    float: right;
+    padding-top: 4%;
+    padding-right: 1%;
+}
+
+#first{
+    text-align: center;
+    padding-top:20vh;
+}
+
+#second{
+    text-align: right;
+    padding-top: 1vh;
+    padding-right: 45vw;
+}
